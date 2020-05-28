@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::s' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::t' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::q' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::data' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

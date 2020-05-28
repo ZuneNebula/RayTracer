@@ -1,0 +1,7 @@
+﻿  raytracer.cpp
+d:\manitoba school\comp sci\comp 4490\assignments\a3\src\raytracer.cpp(546): warning C4018: '<': signed/unsigned mismatch
+d:\manitoba school\comp sci\comp 4490\assignments\a3\src\raytracer.cpp(551): warning C4018: '<': signed/unsigned mismatch
+d:\manitoba school\comp sci\comp 4490\assignments\a3\src\raytracer.cpp(572): warning C4018: '<': signed/unsigned mismatch
+d:\manitoba school\comp sci\comp 4490\assignments\a3\src\raytracer.cpp(597): warning C4018: '<': signed/unsigned mismatch
+d:\manitoba school\comp sci\comp 4490\assignments\a3\src\raytracer.cpp(605): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  opengl.vcxproj -> D:\manitoba school\Comp Sci\Comp 4490\assignments\A3\\build\opengl.exe

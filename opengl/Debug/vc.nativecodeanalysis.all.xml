@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'buf':  the writable size is '(size+1)*1' bytes, but '4294967295' bytes might be written.</DESCRIPTION>
+    <FUNCTION>readShaderSource</FUNCTION>
+    <DECORATED>?readShaderSource@@YAPADPBD@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buf' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buf' is an In/Out argument to 'fread' (declared at c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h:233)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'buf', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\glm\glm\detail</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::tvec4&lt;float,5&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,5&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$04@glm@@QAE@W4ctor@1@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>raytracer.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Material::refraction' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Material::{ctor}</FUNCTION>
+    <DECORATED>??0Material@@QAE@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@Z</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>raytracer.cpp</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>hitSphere</FUNCTION>
+    <DECORATED>?hitSphere@@YA_NU?$tvec3@M$0A@@glm@@00MAAN1AAU12@@Z</DECORATED>
+    <FUNCLINE>255</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>raytracer.cpp</FILENAME>
+      <LINE>605</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lighting</FUNCTION>
+    <DECORATED>?lighting@@YA?AU?$tvec3@M$0A@@glm@@NU12@00VMaterial@@0H@Z</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>3930</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'snprintf'.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::lexer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::get_token_string</FUNCTION>
+    <DECORATED>?get_token_string@?$lexer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>3920</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>11258</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'snprintf'.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_escaped</FUNCTION>
+    <DECORATED>?dump_escaped@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z</DECORATED>
+    <FUNCLINE>11181</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>11264</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'snprintf'.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_escaped</FUNCTION>
+    <DECORATED>?dump_escaped@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z</DECORATED>
+    <FUNCLINE>11181</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>11302</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'snprintf'.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_escaped</FUNCTION>
+    <DECORATED>?dump_escaped@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z</DECORATED>
+    <FUNCLINE>11181</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>11383</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'snprintf'.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::dump_escaped</FUNCTION>
+    <DECORATED>?dump_escaped@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z</DECORATED>
+    <FUNCLINE>11181</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>11588</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>28020</DEFECTCODE>
+    <DESCRIPTION>The expression '0&lt;=_Param_(1)&amp;&amp;_Param_(1)&lt;=400-1' is not true at this call.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::decode</FUNCTION>
+    <DECORATED>?decode@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@CAEAAEAAIE@Z</DECORATED>
+    <FUNCLINE>11566</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>json.hpp</FILENAME>
+        <LINE>11568</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+        <FILENAME>json.hpp</FILENAME>
+        <LINE>11588</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\manitoba school\comp sci\comp 4490\assignments\a3\src</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>4674</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::json_sax_dom_callback_parser&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::end_object</FUNCTION>
+    <DECORATED>?end_object@?$json_sax_dom_callback_parser@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@QAE_NXZ</DECORATED>
+    <FUNCLINE>4649</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
